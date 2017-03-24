@@ -6,7 +6,7 @@ The code in this repository was was inspired and influenced by this article: htt
 To run this code on Windows 10, I recommend following these steps:
 
 - Install the Node.js version manager [Nodist](https://github.com/marcelklehr/nodist) ; I installed it via the installer .exe, but installing via [Chocolatey](https://chocolatey.org/) may work too.
-- Use Nodist to install the latest versions of Node.js and npm
+- Use Nodist to install the latest versions of Node.js and npm (I used Node.js version 7.2.1 and npm version 4.0.5).
 - To successfully ffi, you will first need to install node-gyp. I recommend doing so by running the following command in a Command Prompt window that has Administrator privileges:
 
 	npm install --global --production windows-build-tool
@@ -19,8 +19,8 @@ To run this code on Windows 10, I recommend following these steps:
 
 - Then this repository's code can be run by one or both of the following commands in a Command Prompt or Cygwin window:
 
-	node GetTickCountAllInOneTest.js
-	node GetTickCountFrontEnd.js
+	node GetTickCountAllInOneTest.js (or, equivalently, "npm run case1" or "npm start")
+	node GetTickCountFrontEnd.js (or "npm run case2")
 
 - Further reading:
   - For more information about calling into Windows' kernel32.dll : https://msdn.microsoft.com/en-us/library/windows/desktop/ms682596.aspx

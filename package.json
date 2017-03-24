@@ -2,17 +2,29 @@
 	"name": "node-ffi-windows-example",
 	"version": "1.0.0",
 	"description": "A Node.js Foreign Function Interface example application that calls an entry point in the Windows kernel32.dll",
+	"main": "GetTickCountAllInOneTest.js",
+	"homepage": "https://github.com/tom-weatherhead/node-ffi-windows-example#readme",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/tom-weatherhead/node-ffi-windows-example"
+		"url": "git+https://github.com/tom-weatherhead/node-ffi-windows-example"
+	},
+	"bugs": {
+		"url": "https://github.com/tom-weatherhead/node-ffi-windows-example/issues"
 	},
 	"scripts": {
 		"case1": "node GetTickCountAllInOneTest.js",
 		"case2": "node GetTickCountFrontEnd.js",
-		"start": "npm run case1"
+		"start": "npm run case1",
+		"test": "echo \"Error: no test specified\" && exit 1"
 	},
+	"keywords": [
+		"ffi",
+		"node",
+		"windows"
+	],
 	"dependencies": {
 		"ffi": "^2.2.0"
 	},
+	"author": "Tom Weatherhead (https://github.com/tom-weatherhead)",
 	"license": "MIT"
 }
