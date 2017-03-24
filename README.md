@@ -20,6 +20,7 @@ To run this code on Windows 10, I recommend following these steps:
 - Then this repository's code can be run by one or both of the following commands in a Command Prompt or Cygwin window:
 
 	node GetTickCountAllInOneTest.js (or, equivalently, "npm run case1" or "npm start")
+
 	node GetTickCountFrontEnd.js (or "npm run case2")
 
 - Further reading:
